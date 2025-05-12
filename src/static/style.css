@@ -1,0 +1,79 @@
+body {
+    background-color: #A696AC;
+}
+/* Estilo para o contêiner principal */
+.container {
+    display: grid; 
+    place-items: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* Estilo para a barra de navegação */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+button {
+    background-color: #F3CBBE;  
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+}
+
+/* Estilo para links */
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #965647;
+}
+
+/* Estilo para elementos pequenos */
+.sm {
+    width: 30%;
+    margin: 10px auto 0;
+    text-align: center;
+}
+
+/* Estilo para o grid com três colunas */
+.c {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 250px;
+}
+
+/* Estilo para cada coluna do grid */
+.c1 {
+    grid-column: 1;
+    text-align: center;
+}
+
+.c2 {
+    grid-column: 2;
+    text-align: center;
+}
+
+.c3 {
+    grid-column: 3;
+}
+
+.h {
+    display: grid;
+    grid-template-columns: 2fr 1fr ;
+    margin-top: 40px;
+}
+
+/* Estilo para cada coluna do grid */
+.h1 {
+    grid-column: 1;
+}
+
+.h2 {
+    grid-column: 2; 
+}
