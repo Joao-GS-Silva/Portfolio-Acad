@@ -1,7 +1,7 @@
 body {
     background-color: #A696AC;
 }
-/* Estilo para o contêiner principal */
+
 .container {
     display: grid; 
     place-items: center;
@@ -9,7 +9,6 @@ body {
     text-align: center;
 }
 
-/* Estilo para a barra de navegação */
 .nav {
     display: flex;
     justify-content: space-between;
@@ -24,7 +23,6 @@ button {
     cursor: pointer;
 }
 
-/* Estilo para links */
 a {
     text-decoration: none;
     color: black;
@@ -34,21 +32,18 @@ a:hover {
     color: #965647;
 }
 
-/* Estilo para elementos pequenos */
 .sm {
     width: 30%;
     margin: 10px auto 0;
     text-align: center;
 }
 
-/* Estilo para o grid com três colunas */
 .c {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 250px;
 }
 
-/* Estilo para cada coluna do grid */
 .c1 {
     grid-column: 1;
     text-align: center;
@@ -69,7 +64,6 @@ a:hover {
     margin-top: 40px;
 }
 
-/* Estilo para cada coluna do grid */
 .h1 {
     grid-column: 1;
 }
