@@ -74,7 +74,7 @@ footer > a {
 .container00 > img {
     width: auto;
     height: 500px;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .c02 {
@@ -86,13 +86,9 @@ footer > a {
     font-size: 100px;
 }
 
-.c02 > p {
-    text-decoration: wavy underline;
-    color: #034977;
-}
-
 .c02 > h3 {
     color: #034977;
+    font-size: 30px;
 }
 
 /*Página p1*/
@@ -127,3 +123,77 @@ footer > a {
     height: 500px;
 }
 
+/*Página p2*/
+
+.container02 {
+    display: grid; 
+    place-items: center;
+    grid-template-columns: auto auto;
+    text-align: center;
+    font-style: 'Radley', cursive;
+}
+
+.c21 {
+    grid-column: 1;
+    text-align: justify;
+    justify-content: center;
+    width: 650px;
+}
+
+.c21 > #txt {
+    display: flex; 
+    align-items: center;
+    text-align: justify; 
+    gap: 10px;
+    margin: 0px;  
+}
+
+.c22 {
+    grid-column: 2;
+    text-align: center;
+    justify-content: center;
+}
+
+.c22 > a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+/*Página p3*/
+
+.container03 {
+    display: grid; 
+    place-items: center;
+    grid-template-columns: auto auto;
+    text-align: center;
+    margin: 2%;
+    font-style: 'Radley', cursive;
+}
+
+.c31 {
+    grid-column: 1;
+    text-align: justify;
+    justify-content: center;
+    width: 650px;
+}
+
+.c32 > img {
+    grid-column: 2;
+    width: 550px;
+    height: 350px;
+
+}
+
+/*Página p4*/
+.container04 {
+    display: grid; 
+    place-items: center;
+    grid-template-columns: auto;
+    text-align: center;
+    font-style: 'Radley', cursive;
+}
+
+.container04 > img {
+    width: 450px;
+    height: 350px;
+}
